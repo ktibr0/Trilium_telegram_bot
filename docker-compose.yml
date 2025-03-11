@@ -1,0 +1,10 @@
+services:
+  bot_trilium:
+    build: .
+    command: "python trilium-bot.py"  # Кавычки для команды
+    networks:
+      - traefik    
+
+networks:
+  traefik:
+    external: true  # Подключаемся к общей сети

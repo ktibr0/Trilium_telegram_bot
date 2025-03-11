@@ -1,0 +1,20 @@
+pyTelegramBotAPI
+loguru
+schedule
+libmagic
+
+python-dotenv~=1.0.1
+python-telegram-bot~=21.8
+trilium-py==0.9.8
+python-telegram-bot[job-queue]
+requests
+BeautifulSoup4
+
+python-magic; sys_platform == 'linux'
+
+markdown2[all]
+natsort
+
+pillow
+python-dateutil
+tqdm
